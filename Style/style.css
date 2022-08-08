@@ -80,10 +80,10 @@ section{
     height: 700px;
     margin-top: 1px;
     background-size: cover;
-    line-height: 1.5cm;
+    line-height: 1.5cm  ;
     
 }
-.multiboxes{
+.multipleboxes{
     display: flex;
     flex-wrap: wrap;
 }
@@ -93,7 +93,7 @@ section{
     height: 624px;
     flex-grow: 1;
     min-width: 350px;
-    max-width: 40%;
+    max-width: 50%;
     text-align:center;
     background-position: center;
     background-size: cover;
@@ -105,7 +105,7 @@ section{
     height: 624px;
     flex-grow: 1;
     min-width:350px;
-    max-width: 40%;
+    max-width: 50%;
     text-align: center;
     background-image: url("/Images/macpro.png");
     background-position: center;
