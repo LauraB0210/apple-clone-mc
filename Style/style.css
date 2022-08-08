@@ -61,6 +61,7 @@
 }
 section{
     padding: 30px;
+    
 }
 .box2 {
     height: 580px;
@@ -74,17 +75,48 @@ section{
 
 .box3 {
     text-align: center;
-    background-image: url("/Images/mac&ipad.png");
+    background-image: url("/Images/box3.png");
     background-position: center;
-    background-repeat: no-repeat;
-    background-position: 50%;
-    height: 35vw;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 10px;
+    height: 700px;
+    margin-top: 1px;
+    background-size: cover;
+    line-height: 1.5cm;
+    
+}
+.multiboxes{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.iphone13si{
+    background-image: url("/Images/iphone13aja.png");
+    height: 624px;
+    flex-grow: 1;
+    min-width: 350px;
+    max-width: 40%;
+    text-align:center;
+    background-position: center;
+    background-size: cover;
     
 
 }
+.smallbox{
+    color: #ffffff;
+    height: 624px;
+    flex-grow: 1;
+    min-width:350px;
+    max-width: 40%;
+    text-align: center;
+    background-image: url("/Images/macpro.png");
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+
+
+
 
 
 .link {
